@@ -1,0 +1,7 @@
+hr {
+    border: 1px dashed black;  
+    width:2cm;
+}
+table, th, td{
+border:1px dashed black;
+}
