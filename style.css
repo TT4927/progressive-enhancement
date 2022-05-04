@@ -1,14 +1,52 @@
+/*Style the paragraphs: use a Serif font, increase the spacing a little, 
+use a basic size that makes it easy to read. Give the text a dark color, but not black.
+Style links so that they are easily readable.*/
+
+body{
+  color: dimgray;
+  background-color: powderblue;
+  width: 90%;
+  margin: center;
+}
+
+/*Select an element of the header 
+and gives it a yellow background (use the child selector)*/
+h1:first-child{
+    background-color: yellow;
+}
+p {
+    font-style: serif;
+    word-spacing: 0.5px; 
+}
+/*Style links so that they are easily readable.
+rules: When setting the style for several link states, there are some order rules:
+a:hover MUST come after a:link and a:visited
+a:active MUST come after a:hover*/
+
+a:link {
+    background-color: plum;
+}
+/*edit table*/
+table, td, th {
+    border: 1px solid;
+  }
+
+table {
+border-collapse: collapse;
+}
+/*create a class for good and bad.
+Capitalize all instances of the words "good" and "bad".
+Put the words "Bad" in red
+Put the words "Good" in green*/
+
+#good {
+    color: darkgreen;
+}
+#bad {
+    color: red;
+}
 
 hr {
     border: 1px dashed black;  
     width:2cm;
 }
-table, th, td{
-border:1px dashed black;
-}
-/* add a formating for the class div if necsseary */
-/* .good {
-} */
-/* .bad {
-}
-
